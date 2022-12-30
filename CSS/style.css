@@ -1,0 +1,121 @@
+body,
+html {
+    font-family: 'Signika Negative', sans-serif;
+    background-color: rgba(9, 48, 122, 0.853);
+}
+
+.top-navigation-left img {
+    height: 75px;
+    width: 75px;
+}
+
+.top-navigation-right img {
+    height: 20px;
+    width: 20px;
+}
+
+.container {
+    padding: 2em;
+}
+
+.top-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-navigation-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.top-navigation-links {
+    display: flex;
+    gap: 2em;
+}
+
+.top-navigation-links a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 1em;
+    font-size: 115%;
+    font-weight:250;
+}
+
+.top-navigation-right {
+    display: flex;
+    gap: 1em;
+}
+
+.top-navigation-right a {
+    text-decoration: none;
+    color: black;
+    font-size: 115%;
+    font-weight:250;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.card {
+    aspect-ratio: 1 / 1.5;
+    border: 10px solid rgb(8, 13, 54);
+}
+
+.card__img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+img,
+picture {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.stacked {
+    display: grid;
+}
+
+.card__content {
+    background: white;
+    align-self: end;
+    margin: .5rem;
+    padding: .5rem;
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / .1);
+}
+
+.card__content a {
+    text-decoration: none;
+    color: rgb(127, 28, 28);
+    display: flex;
+    font-size: 175%;
+    font-weight:800;
+}
+
+.footer img {
+    height: 30px;
+    width: 30px;
+}
+
+.footer button {
+   border: none;
+   background: black;
+   color: white;
+   width: 10%;
+   padding: 1em;
+   border-radius: 15px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    gap: 1rem;
+}
